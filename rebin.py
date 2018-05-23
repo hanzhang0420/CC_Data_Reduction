@@ -1,3 +1,4 @@
+# rebin an array (2d or 1d), works as the IDL function rebin
 import numpy
 def rebin(a, fshape):
     if len(a.shape)>1:
